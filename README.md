@@ -1,3 +1,5 @@
+![alt text](https://walletcore.io/img/walletcore_logo.png "WalletCore.io")
+
 # WalletCore.io PHP 
 ===================
 
