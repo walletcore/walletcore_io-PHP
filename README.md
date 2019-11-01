@@ -5,7 +5,7 @@
 
 **Current Release**: 1.0
 
-PHP wrapper for [WalletCore.io](https://walletcore.io/) for use with [Dogecoin](http://dogecoin.com/), [Bitcoin](http://bitcoin.org/), and [Litecoin](http://litecoin.org). API key validation on instantiation, simple abstraction layer on top of existing API interfaces, and automatic JSON response.
+PHP wrapper for [WalletCore.io](https://walletcore.io/) for use with [Dogecoin](http://dogecoin.com/), [Bitcoin](http://bitcoin.org/), and [Litecoin](http://litecoin.org). API key validation on instantiation, simple abstraction layer on top of existing API interfaces, and automatic JSON decoding on response.
 
 ### Usage
 
