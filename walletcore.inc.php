@@ -66,7 +66,7 @@ class WalletCoreAPI {
 	    
 		// Create cURL handle and initialize (if needed)
 		if ($this->ch === null) {
-			$this->ch = curl_init('https://member.walletcore.pro/api.php');
+			$this->ch = curl_init('https://member.walletcore.io/api.php');
 			curl_setopt($this->ch, CURLOPT_FAILONERROR, TRUE);
 			curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, TRUE);
 			curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, 0);
