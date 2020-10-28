@@ -12,12 +12,12 @@ $walletcore->Setup($private_key,$public_key);
 try {
 
     $amount     = 0.001;
-    $currency   = "BTC";
+    $currency   = "BTC"; // Here you can user wallet allowed coin id as like LTC,DOGE,ETH,TRX,RDD
     $address    = "Your Bitcoin Receive address";
     $ipn_url    = "www.yourwebsite.com/ipn.php";
 
 
-    $result = $walletcore->CreateWithdrawal("BTC",$ipn_url);
+    $result = $walletcore->CreateWithdrawal($amount,$currency,$address,$ipn_url);
      if ($result['status'] == '200') {
          print_r($result);
      }else{
