@@ -24,7 +24,7 @@ if ($request === FALSE || empty($request)) {
         exit();
     }
 
-    if ($IPNSECRET == IPNSECRET) {
+    if ($IPNSECRET == $ipn_secret) {
 
         // Here do your code as you want now transction are valid and successfuly get 3 Confirmaton
 
